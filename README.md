@@ -4,10 +4,12 @@ let data = [
   {principal: 1000, time: 5},
   {principal: 3000, time: 1},
   {principal: 2000, time: 3}
-
+//Keys
   ];
 
- 
+
+ //function
+
 function interestCalculator (array) {
             let rate;
             let interest;
@@ -26,7 +28,8 @@ function interestCalculator (array) {
                 }else {
                     rate = 1;
                 } 
-
+         //InterestFormular
+          
                 interest = (array[i].principal * rate * array[i].time) / 100;
                 
                 interestData.push({
